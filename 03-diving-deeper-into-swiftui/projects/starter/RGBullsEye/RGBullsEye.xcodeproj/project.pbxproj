@@ -12,6 +12,7 @@
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
+		A1FFF9222B41BA0C00CBDB12 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFF9212B41BA0C00CBDB12 /* ViewExtension.swift */; };
 		CDC839FB298CA4B2001C6553 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839F8298CA4B2001C6553 /* ColorExtension.swift */; };
 		CDC839FC298CA4B2001C6553 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839F9298CA4B2001C6553 /* Game.swift */; };
 		CDC839FD298CA4B2001C6553 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839FA298CA4B2001C6553 /* RGB.swift */; };
@@ -26,6 +27,7 @@
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FFF9212B41BA0C00CBDB12 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		CDC839F8298CA4B2001C6553 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		CDC839F9298CA4B2001C6553 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CDC839FA298CA4B2001C6553 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				CDC839F9298CA4B2001C6553 /* Game.swift */,
 				CDC839FA298CA4B2001C6553 /* RGB.swift */,
 				CDC839F8298CA4B2001C6553 /* ColorExtension.swift */,
+				A1FFF9212B41BA0C00CBDB12 /* ViewExtension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,8 +124,9 @@
 		18D775B522AD944300AE281E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1510;
 				ORGANIZATIONNAME = Kodeco;
 				TargetAttributes = {
 					18D775BC22AD944300AE281E = {
@@ -191,6 +195,7 @@
 				CDC839FD298CA4B2001C6553 /* RGB.swift in Sources */,
 				CDC839FB298CA4B2001C6553 /* ColorExtension.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
+				A1FFF9222B41BA0C00CBDB12 /* ViewExtension.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* RGBullsEyeApp.swift in Sources */,
 				CDC839FC298CA4B2001C6553 /* Game.swift in Sources */,
 				CDC83A02298F48EE001C6553 /* ColorCircle.swift in Sources */,
@@ -248,6 +253,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -309,6 +315,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -333,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "RGBullsEye/Preview\\ Content";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RGBullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -341,7 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RGBullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangallagher.RGBullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,7 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "RGBullsEye/Preview\\ Content";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RGBullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -362,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RGBullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangallagher.RGBullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
