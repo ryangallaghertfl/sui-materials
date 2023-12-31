@@ -43,6 +43,6 @@ struct BevelText: View {
 
 }
 
-#Preview {
-    BevelText()
-}
+//#Preview {
+//    BevelText()
+//}
