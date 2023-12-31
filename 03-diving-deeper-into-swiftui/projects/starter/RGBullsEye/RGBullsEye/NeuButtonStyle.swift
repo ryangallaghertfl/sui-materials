@@ -40,6 +40,7 @@ struct NeuButtonStyle: ButtonStyle {
   -> some View {
     configuration.label
       .frame(width: 327, height: 48)
+      .foregroundColor(Color(UIColor.systemBlue))
       .background(Capsule()
         .fill(Color.element)
         .northWestShadow()
