@@ -14,6 +14,7 @@
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
 		A1FFF9222B41BA0C00CBDB12 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFF9212B41BA0C00CBDB12 /* ViewExtension.swift */; };
 		A1FFF9242B41D19000CBDB12 /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFF9232B41D19000CBDB12 /* NeuButtonStyle.swift */; };
+		A1FFF9262B41D4CB00CBDB12 /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FFF9252B41D4CB00CBDB12 /* BevelText.swift */; };
 		CDC839FB298CA4B2001C6553 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839F8298CA4B2001C6553 /* ColorExtension.swift */; };
 		CDC839FC298CA4B2001C6553 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839F9298CA4B2001C6553 /* Game.swift */; };
 		CDC839FD298CA4B2001C6553 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC839FA298CA4B2001C6553 /* RGB.swift */; };
@@ -30,6 +31,7 @@
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1FFF9212B41BA0C00CBDB12 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		A1FFF9232B41D19000CBDB12 /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		A1FFF9252B41D4CB00CBDB12 /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
 		CDC839F8298CA4B2001C6553 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		CDC839F9298CA4B2001C6553 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CDC839FA298CA4B2001C6553 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
+				A1FFF9252B41D4CB00CBDB12 /* BevelText.swift */,
 			);
 			path = RGBullsEye;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				CDC839FD298CA4B2001C6553 /* RGB.swift in Sources */,
 				CDC839FB298CA4B2001C6553 /* ColorExtension.swift in Sources */,
+				A1FFF9262B41D4CB00CBDB12 /* BevelText.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				A1FFF9222B41BA0C00CBDB12 /* ViewExtension.swift in Sources */,
 				A1FFF9242B41D19000CBDB12 /* NeuButtonStyle.swift in Sources */,
