@@ -39,6 +39,13 @@ struct BevelText: View {
 
   var body: some View {
     Text(text)
+      .frame(width: width, height: height)
+      .background(
+        Capsule()
+          .fill(Color.element)
+          .northWestShadow(radius: 3, offset: 1)
+      )
+
   }
 
 }
