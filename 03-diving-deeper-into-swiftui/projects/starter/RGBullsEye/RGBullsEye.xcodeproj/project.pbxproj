@@ -71,12 +71,12 @@
 				1839F4AF25190F2A00BB00F1 /* RGBullsEyeApp.swift */,
 				18D775C422AD944300AE281E /* ContentView.swift */,
 				CDC83A01298F48EE001C6553 /* ColorCircle.swift */,
+				A1FFF9232B41D19000CBDB12 /* NeuButtonStyle.swift */,
 				CDC839FE298CA4BF001C6553 /* Model */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
-				A1FFF9232B41D19000CBDB12 /* NeuButtonStyle.swift */,
 			);
 			path = RGBullsEye;
 			sourceTree = "<group>";

@@ -59,7 +59,7 @@ struct ContentView: View {
         Button("Hit Me!") {
           showScore = true
           game.check(guess: guess)
-        }
+        }.buttonStyle(NeuButtonStyle(width: 327, height: 48))
         .alert(isPresented: $showScore) {
           Alert(
             title: Text("Your Score"),
