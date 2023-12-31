@@ -69,7 +69,7 @@ struct ContentView: View {
               guess = RGB()
             })
         }
-      }
+      }.font(.headline)
     }
   }
 }
