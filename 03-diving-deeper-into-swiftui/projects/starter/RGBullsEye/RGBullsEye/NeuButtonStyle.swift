@@ -39,11 +39,21 @@ struct NeuButtonStyle: ButtonStyle {
   func makeBody(configuration: Self.Configuration)
   -> some View {
     configuration.label
+      .opacity(configuration.isPressed ? 0.2 : 1)
       .frame(width: 327, height: 48)
       .foregroundColor(Color(UIColor.systemBlue))
-      .background(Capsule()
-        .fill(Color.element)
-        .northWestShadow()
+      .background(Group {
+        if configuration.isPressed {
+          Capsule()
+            .fill(Color.element)
+            .southEastShadow()
+        } else {
+          Capsule()
+            .fill(Color.element)
+            .northWestShadow()
+        }
+      }
+
       )
   }
 }
